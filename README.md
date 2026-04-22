@@ -1,0 +1,42 @@
+# Starking Portfolio
+
+A standalone portfolio site for serious engineering projects: knowledge systems, AI tools, offline-first apps, security utilities, and visual engineering.
+
+## Launch Locally
+
+```bash
+cd /home/starking/starking-portfolio
+npm run start
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173
+```
+
+You can also open `index.html` directly in a browser.
+
+## Check Files
+
+```bash
+npm run check
+```
+
+## Current Featured Project
+
+- The Codex: https://github.com/00000star/Civilizationx
+
+## Portfolio Direction
+
+This portfolio is built around projects that demonstrate:
+
+- Product judgement.
+- TypeScript/frontend engineering.
+- AI systems.
+- Local-first knowledge tools.
+- Developer tooling.
+- Security awareness.
+- Visual/engineering media.
+
+See `PORTFOLIO_BUILD_PLAN.md` for the project roadmap.

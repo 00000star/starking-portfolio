@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Starking portfolio: serious projects for knowledge systems, AI tools, offline-first apps, and civilisation-scale engineering."
+    />
+    <meta name="theme-color" content="#101820" />
+    <title>Starking | Builder of Serious Tools</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Starking portfolio home">
+          <span class="brand-mark" aria-hidden="true">SX</span>
+          <span>Starking</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#case-study">Case Study</a>
+          <a href="#stack">Stack</a>
+          <a href="#roadmap">Roadmap</a>
+          <a class="nav-cta" href="https://github.com/00000star/Civilizationx">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Knowledge systems · AI tools · resilient software</p>
+          <h1 id="hero-title">I build serious tools for people who need more than a demo.</h1>
+          <p class="hero-lede">
+            My portfolio is focused on software that has a reason to exist: offline-first reference systems,
+            AI-assisted workflows, developer tooling, security utilities, and visual engineering projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#case-study">Read The Codex Case Study</a>
+          </div>
+          <dl class="metrics" aria-label="Portfolio metrics">
+            <div>
+              <dt>Flagship</dt>
+              <dd>The Codex</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>AI + knowledge</dd>
+            </div>
+            <div>
+              <dt>Standard</dt>
+              <dd>Deployable work</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-art" aria-label="Abstract system diagram">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="core-card">
+            <span class="core-kicker">Portfolio thesis</span>
+            <strong>Build tools that preserve, explain, and extend human capability.</strong>
+          </div>
+          <div class="node node-a">Offline</div>
+          <div class="node node-b">AI</div>
+          <div class="node node-c">Security</div>
+          <div class="node node-d">3D</div>
+        </div>
+      </section>
+
+      <section class="section thesis" aria-labelledby="thesis-title">
+        <p class="eyebrow">Positioning</p>
+        <h2 id="thesis-title">Not a random collection of apps. A coherent engineering portfolio.</h2>
+        <div class="thesis-grid">
+          <article>
+            <h3>Product judgement</h3>
+            <p>Projects begin with a real problem, a user, a workflow, and a reason the tool should exist.</p>
+          </article>
+          <article>
+            <h3>Technical depth</h3>
+            <p>Each project should show architecture, data modelling, testing, deployment, and maintainability.</p>
+          </article>
+          <article>
+            <h3>Demo value</h3>
+            <p>A reviewer should be able to open the project, understand it quickly, and see working software.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio pipeline</p>
+          <h2 id="projects-title">Flagship projects</h2>
+          <p>
+            The first project is live in the portfolio now. The others are intentionally scoped as serious next builds,
+            not throwaway tutorial clones.
+          </p>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="shipped">Shipped</button>
+          <button class="filter" type="button" data-filter="planned">Planned</button>
+          <button class="filter" type="button" data-filter="ai">AI</button>
+          <button class="filter" type="button" data-filter="tooling">Tooling</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured" data-tags="shipped ai knowledge offline">
+            <div class="card-topline">
+              <span class="status shipped">Shipped foundation</span>
+              <span>React · TypeScript · PWA</span>
+            </div>
+            <h3>The Codex</h3>
+            <p>
+              A visual, interactive encyclopaedia of human technology, designed for collapse recovery and space
+              settlement. Includes a tech tree, documentary entries, planner mode, Obsidian export, and offline support.
+            </p>
+            <ul class="project-points">
+              <li>80 technology entries with structured schema.</li>
+              <li>Offline-first PWA and generated media assets.</li>
+              <li>Scenario planner for survival, salvage, workshop, and Mars contexts.</li>
+            </ul>
+            <div class="card-actions">
+              <a href="https://github.com/00000star/Civilizationx">Repository</a>
+              <a href="#case-study">Case study</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="planned ai knowledge tooling">
+            <div class="card-topline">
+              <span class="status planned">Next build</span>
+              <span>Obsidian · Embeddings · Local-first</span>
+            </div>
+            <h3>Obsidian AI Knowledge Engine</h3>
+            <p>
+              A local-first assistant for Markdown vaults: semantic search, missing-link detection, duplicate notes,
+              summary generation, and question answering over private notes.
+            </p>
+            <ul class="project-points">
+              <li>Indexes Markdown into SQLite or Postgres.</li>
+              <li>Supports OpenAI and local Ollama models.</li>
+              <li>Outputs human-readable note improvement tasks.</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-tags="planned ai tooling fullstack">
+            <div class="card-topline">
+              <span class="status planned">Planned</span>
+              <span>GitHub API · Tasks · Agents</span>
+            </div>
+            <h3>AI Project Manager</h3>
+            <p>
+              A dashboard for AI-assisted software projects: task board, agent activity, commit summaries, risk flags,
+              build status, and project memory.
+            </p>
+            <ul class="project-points">
+              <li>Tracks what changed and why.</li>
+              <li>Connects tasks to commits and verification.</li>
+              <li>Exports to Markdown, GitHub Issues, or Jira.</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-tags="planned security tooling">
+            <div class="card-topline">
+              <span class="status planned">Planned</span>
+              <span>CLI · GitHub Action · Security</span>
+            </div>
+            <h3>AI Safety Secret Scanner</h3>
+            <p>
+              A lightweight scanner for secrets, unsafe config, dangerous generated code patterns, and missing repo
+              hygiene before AI-assisted commits go public.
+            </p>
+            <ul class="project-points">
+              <li>CLI reports for local development.</li>
+              <li>GitHub Action for pull requests.</li>
+              <li>Clear remediation advice instead of noisy warnings.</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-tags="planned visual tooling engineering">
+            <div class="card-topline">
+              <span class="status planned">Planned</span>
+              <span>Blender · FreeCAD · Diagrams</span>
+            </div>
+            <h3>Visual Engineering Playground</h3>
+            <p>
+              A tool that generates technical diagrams and simple 3D explainers from structured specs, eventually feeding
+              media back into The Codex.
+            </p>
+            <ul class="project-points">
+              <li>Generates explainers for levers, pulleys, engines, and circuits.</li>
+              <li>Exports images and lightweight models.</li>
+              <li>Connects visual assets to documentation.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section case-study" id="case-study" aria-labelledby="case-title">
+        <div class="case-copy">
+          <p class="eyebrow">Featured case study</p>
+          <h2 id="case-title">The Codex: a civilisation operating manual</h2>
+          <p>
+            The Codex started as a tech tree and grew into an offline-first reference system for rebuilding capability
+            from first principles. It is built around the question: what would someone need to know if supply chains,
+            internet access, or Earth itself were unavailable?
+          </p>
+          <div class="case-list">
+            <div>
+              <strong>Problem</strong>
+              <span>Human knowledge is scattered, shallow, and dependency-blind.</span>
+            </div>
+            <div>
+              <strong>Solution</strong>
+              <span>Structured technology entries connected by prerequisites, materials, media, hazards, and planners.</span>
+            </div>
+            <div>
+              <strong>Engineering</strong>
+              <span>React, TypeScript, JSON schema discipline, generated summaries, PWA caching, and Obsidian export.</span>
+            </div>
+          </div>
+          <a class="button secondary" href="./case-studies/the-codex.md">Open written case study</a>
+        </div>
+        <figure class="architecture">
+          <img src="./assets/codex-architecture.svg" alt="The Codex architecture diagram" />
+          <figcaption>High-level architecture of The Codex as a data-driven offline reference system.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section stack" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading">
+          <p class="eyebrow">Technical signal</p>
+          <h2 id="stack-title">Stack direction</h2>
+          <p>These are the technologies the portfolio should repeatedly demonstrate with working projects.</p>
+        </div>
+        <div class="stack-grid">
+          <article>
+            <h3>Frontend</h3>
+            <p>TypeScript, React, Vite, offline-first PWA patterns, accessible UI, and strong visual design.</p>
+          </article>
+          <article>
+            <h3>AI systems</h3>
+            <p>Embeddings, local/remote model adapters, agent workflows, evaluation, safety checks, and audit trails.</p>
+          </article>
+          <article>
+            <h3>Backend/data</h3>
+            <p>Node or Python services, PostgreSQL/SQLite, JSON schemas, search, queues, and practical API design.</p>
+          </article>
+          <article>
+            <h3>DevOps</h3>
+            <p>Docker, GitHub Actions, deployment docs, reproducible builds, and security scanning.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section roadmap" id="roadmap" aria-labelledby="roadmap-title">
+        <p class="eyebrow">Execution plan</p>
+        <h2 id="roadmap-title">Next moves</h2>
+        <ol class="timeline">
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Polish The Codex presentation</h3>
+              <p>Add live deployment, screenshots, demo video, and a stronger README architecture section.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Build the Obsidian AI Knowledge Engine</h3>
+              <p>Turn the real Obsidian workflow into a local-first AI product with a clear demo.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Ship the AI Project Manager</h3>
+              <p>Show full-stack engineering by connecting tasks, commits, agents, and verification.</p>
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div>
+              <h3>Add security and visual engineering projects</h3>
+              <p>Round out the portfolio with a scanner and a visual/3D project that makes it memorable.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Starking · Building tools for knowledge, AI, resilience, and engineering clarity.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
