@@ -30,6 +30,7 @@ The donation path is intentionally pending. The site keeps `DONATE.md` funding n
 ## Current Featured Project
 
 - The Codex: https://github.com/00000star/Civilizationx
+- Disaster Mesh Communications: https://github.com/00000star/disaster-mesh-communications
 
 ## Portfolio Direction
 

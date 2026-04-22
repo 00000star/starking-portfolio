@@ -1,5 +1,9 @@
 # Disaster Mesh Communications
 
+Repository: https://github.com/00000star/disaster-mesh-communications
+
+Status: MVP built as a standalone offline-first PWA.
+
 ## Mission
 
 Build an offline-first community coordination tool for disasters, outages, and local emergencies.

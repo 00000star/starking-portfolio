@@ -56,6 +56,7 @@ The expanded idea engine lives in:
 - `HUMANITY_SOFTWARE_IDEAS_100.md` for a 100-project catalog across resilience, health, food, education, rights, work, accessibility, environment, governance, and AI for human capability.
 
 1. Disaster Mesh Communications
+   - Status: MVP built and published at https://github.com/00000star/disaster-mesh-communications.
    - Purpose: offline-first coordination during outages and disasters.
    - MVP: local incident board, supply tracker, radio plan, QR/file export.
 
@@ -96,7 +97,7 @@ Prioritize projects with:
 Current queue:
 
 1. Deploy and polish The Codex.
-2. Build Disaster Mesh Communications.
+2. Harden and deploy Disaster Mesh Communications.
 3. Build Clean Water Field Guide.
 4. Build Obsidian AI Knowledge Engine in parallel.
 5. Build Open Repair Atlas.

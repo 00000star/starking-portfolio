@@ -28,6 +28,8 @@ See `HUMANITY_SOFTWARE_IDEAS_100.md` for a broader catalog of 100 candidate proj
 
 ### 1. Disaster Mesh Communications
 
+Status: MVP built and published at https://github.com/00000star/disaster-mesh-communications
+
 Build an offline-first incident coordination app for communities during outages.
 
 Why it matters: disasters often break internet, power, and normal coordination. A local tool that stores tasks, supply needs, checklists, radio info, and exportable message logs can help people organize.

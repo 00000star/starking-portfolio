@@ -65,6 +65,10 @@ if (!html.includes("https://github.com/00000star/Civilizationx")) {
   failures.push("Missing Civilizationx GitHub link");
 }
 
+if (!html.includes("https://github.com/00000star/disaster-mesh-communications")) {
+  failures.push("Missing Disaster Mesh GitHub link");
+}
+
 for (const phrase of ["AI + knowledge system builds", "Opportunity funnel", "Useful to humanity"]) {
   if (!html.includes(phrase)) failures.push(`Missing reputation/revenue phrase: ${phrase}`);
 }
