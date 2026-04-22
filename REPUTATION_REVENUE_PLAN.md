@@ -77,6 +77,15 @@ Some public-good projects may fit:
 
 Do not depend on this first. Treat it as upside after public proof exists.
 
+Donation setup is deferred until a working payment path is confirmed.
+
+When ready:
+
+- Add one verified support URL.
+- Add a support button to every project card and project README.
+- Add repository funding metadata through `.github/FUNDING.yml`.
+- Keep donation copy honest: support development, not guaranteed rescue, health, legal, or safety outcomes.
+
 ### Path 4: Products
 
 Longer term, turn the strongest repeated need into a small product:
@@ -103,3 +112,4 @@ Longer term, turn the strongest repeated need into a small product:
 4. Build the Obsidian AI Knowledge Engine MVP.
 5. Add a contact method once you choose one.
 6. Share The Codex and the portfolio with relevant communities.
+7. Add the final confirmed donation platform.

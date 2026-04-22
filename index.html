@@ -26,6 +26,8 @@
         <div class="nav-links" id="nav-links">
           <a href="#projects">Projects</a>
           <a href="#humanity">Humanity Lab</a>
+          <a href="#unbuilt">Unbuilt Gaps</a>
+          <a href="#build-queue">Build Queue</a>
           <a href="#reputation">Reputation</a>
           <a href="#case-study">Case Study</a>
           <a href="#stack">Stack</a>
@@ -47,6 +49,7 @@
           <div class="hero-actions">
             <a class="button primary" href="#projects">View Projects</a>
             <a class="button secondary" href="#reputation">Work With Me</a>
+            <a class="button secondary" href="#build-queue">See Build Queue</a>
           </div>
           <dl class="metrics" aria-label="Portfolio metrics">
             <div>
@@ -138,6 +141,7 @@
             <div class="card-actions">
               <a href="https://github.com/00000star/Civilizationx">Repository</a>
               <a href="#case-study">Case study</a>
+              <a href="#roadmap">Roadmap</a>
             </div>
           </article>
 
@@ -156,6 +160,10 @@
               <li>Supports OpenAI and local Ollama models.</li>
               <li>Outputs human-readable note improvement tasks.</li>
             </ul>
+            <div class="card-actions">
+              <a href="#build-queue">Why next</a>
+              <a href="#roadmap">Roadmap</a>
+            </div>
           </article>
 
           <article class="project-card" data-tags="planned ai tooling fullstack">
@@ -173,6 +181,10 @@
               <li>Connects tasks to commits and verification.</li>
               <li>Exports to Markdown, GitHub Issues, or Jira.</li>
             </ul>
+            <div class="card-actions">
+              <a href="#build-queue">Why planned</a>
+              <a href="#roadmap">Roadmap</a>
+            </div>
           </article>
 
           <article class="project-card" data-tags="planned security tooling humanity">
@@ -190,6 +202,10 @@
               <li>GitHub Action for pull requests.</li>
               <li>Clear remediation advice instead of noisy warnings.</li>
             </ul>
+            <div class="card-actions">
+              <a href="#build-queue">Why planned</a>
+              <a href="#roadmap">Roadmap</a>
+            </div>
           </article>
 
           <article class="project-card" data-tags="planned visual tooling engineering">
@@ -207,6 +223,10 @@
               <li>Exports images and lightweight models.</li>
               <li>Connects visual assets to documentation.</li>
             </ul>
+            <div class="card-actions">
+              <a href="#build-queue">Why planned</a>
+              <a href="#roadmap">Roadmap</a>
+            </div>
           </article>
         </div>
       </section>
@@ -234,7 +254,10 @@
               <div><dt>Stack</dt><dd>PWA, IndexedDB, QR/file sync, maps</dd></div>
               <div><dt>MVP</dt><dd>offline incident board + supply tracker</dd></div>
             </dl>
-            <a href="./project-specs/disaster-mesh-communications.md">Read spec</a>
+            <div class="humanity-actions">
+              <a href="./project-specs/disaster-mesh-communications.md">Read spec</a>
+              <a href="#build-queue">Build priority</a>
+            </div>
           </article>
 
           <article class="humanity-card priority">
@@ -249,7 +272,10 @@
               <div><dt>Stack</dt><dd>static PWA, decision trees, print mode</dd></div>
               <div><dt>MVP</dt><dd>treatment selector + safety warnings</dd></div>
             </dl>
-            <a href="./project-specs/clean-water-field-guide.md">Read spec</a>
+            <div class="humanity-actions">
+              <a href="./project-specs/clean-water-field-guide.md">Read spec</a>
+              <a href="#build-queue">Build priority</a>
+            </div>
           </article>
 
           <article class="humanity-card">
@@ -264,6 +290,9 @@
               <div><dt>Stack</dt><dd>React, JSON entries, diagrams, search</dd></div>
               <div><dt>MVP</dt><dd>bicycle + hand pump repair paths</dd></div>
             </dl>
+            <div class="humanity-actions">
+              <a href="./project-specs/open-repair-atlas.md">Read spec</a>
+            </div>
           </article>
 
           <article class="humanity-card">
@@ -278,6 +307,9 @@
               <div><dt>Stack</dt><dd>TypeScript, SQLite, charts, exports</dd></div>
               <div><dt>MVP</dt><dd>calorie calendar + crop planner</dd></div>
             </dl>
+            <div class="humanity-actions">
+              <a href="#build-queue">Planned</a>
+            </div>
           </article>
 
           <article class="humanity-card">
@@ -292,6 +324,9 @@
               <div><dt>Stack</dt><dd>extension, readability parser, CSS</dd></div>
               <div><dt>MVP</dt><dd>one-click clean page + print/PDF</dd></div>
             </dl>
+            <div class="humanity-actions">
+              <a href="#build-queue">Planned</a>
+            </div>
           </article>
 
           <article class="humanity-card">
@@ -306,7 +341,113 @@
               <div><dt>Stack</dt><dd>PWA, local storage, printable plans</dd></div>
               <div><dt>MVP</dt><dd>risk questionnaire + 30-day action plan</dd></div>
             </dl>
+            <div class="humanity-actions">
+              <a href="#build-queue">Planned</a>
+            </div>
           </article>
+        </div>
+      </section>
+
+      <section class="section unbuilt" id="unbuilt" aria-labelledby="unbuilt-title">
+        <div class="section-heading">
+          <p class="eyebrow">Unbuilt gaps</p>
+          <h2 id="unbuilt-title">Software humanity needs but the market underbuilds.</h2>
+          <p>
+            These ideas are selected for neglected usefulness: they help people prepare, learn, repair, coordinate, or
+            access knowledge without depending on perfect networks, expensive SaaS, or institutional permission.
+          </p>
+        </div>
+
+        <div class="unbuilt-grid">
+          <article>
+            <span>01</span>
+            <h3>Mutual Aid Logistics OS</h3>
+            <p>Inventory, requests, volunteers, delivery routes, and accountability for small community groups.</p>
+            <a href="./project-specs/mutual-aid-logistics-os.md">Read spec</a>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Open Medical Translation Cards</h3>
+            <p>Offline symptom, allergy, medication, and consent cards for travel, clinics, shelters, and emergencies.</p>
+            <a href="./project-specs/open-medical-translation-cards.md">Read spec</a>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Community Tool Library Manager</h3>
+            <p>Borrowing, maintenance, safety checks, repair history, and training notes for shared practical tools.</p>
+            <a href="./project-specs/community-tool-library-manager.md">Read spec</a>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Low-Bandwidth School Kit</h3>
+            <p>Offline lessons, worksheets, teacher notes, and progress exports for schools with weak internet.</p>
+            <a href="./project-specs/low-bandwidth-school-kit.md">Read spec</a>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Local Hazard Memory Map</h3>
+            <p>Neighborhood reports for floods, outages, blocked roads, smoke, heat islands, and unsafe infrastructure.</p>
+            <a href="./project-specs/local-hazard-memory-map.md">Read spec</a>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Plain-Language Rights Explainer</h3>
+            <p>Jurisdiction-aware checklists that translate complex rules into practical next actions and limitations.</p>
+            <a href="./project-specs/plain-language-rights-explainer.md">Read spec</a>
+          </article>
+        </div>
+
+        <div class="research-note">
+          <strong>Build rule:</strong>
+          <span>
+            Start with tools that can be useful as static PWAs, avoid false certainty in health/legal/safety areas, and
+            turn every project into reusable public infrastructure.
+          </span>
+          <a href="./HUMANITY_PROJECTS.md">Read full brainstorm</a>
+        </div>
+      </section>
+
+      <section class="section build-queue" id="build-queue" aria-labelledby="build-queue-title">
+        <div class="section-heading">
+          <p class="eyebrow">Build queue</p>
+          <h2 id="build-queue-title">What gets built first, and why.</h2>
+          <p>
+            The portfolio needs a disciplined sequence: finish visible proof, then build the highest-impact projects
+            that can be shipped as small offline-first demos.
+          </p>
+        </div>
+
+        <div class="queue-grid">
+          <article class="queue-card priority">
+            <span>Now</span>
+            <h3>Deploy and polish The Codex</h3>
+            <p>Highest proof value because it already exists and shows the full thesis: knowledge, resilience, AI, and offline access.</p>
+          </article>
+          <article class="queue-card priority">
+            <span>Next</span>
+            <h3>Disaster Mesh Communications</h3>
+            <p>Best next public-good MVP: clear user, offline-first architecture, data modelling, and immediate real-world relevance.</p>
+          </article>
+          <article class="queue-card">
+            <span>Then</span>
+            <h3>Clean Water Field Guide</h3>
+            <p>Strong impact, but must be handled carefully with conservative safety copy and public-health citations before release.</p>
+          </article>
+          <article class="queue-card">
+            <span>Parallel</span>
+            <h3>Obsidian AI Knowledge Engine</h3>
+            <p>Commercially useful and technically strong; pairs well with the public-good tools because it improves knowledge workflows.</p>
+          </article>
+        </div>
+
+        <div class="scorecard">
+          <h3>Selection scorecard</h3>
+          <ul>
+            <li><strong>Impact:</strong> Does it solve a real human problem, not just demonstrate a library?</li>
+            <li><strong>Shippability:</strong> Can the first version work as a small PWA or local-first tool?</li>
+            <li><strong>Trust:</strong> Can the project be honest about uncertainty, safety, and limitations?</li>
+            <li><strong>Signal:</strong> Does it prove architecture, data modelling, UX, testing, and deployment?</li>
+          </ul>
         </div>
       </section>
 
@@ -402,6 +543,23 @@
             <li>Offer focused services based on demonstrated work.</li>
             <li>Package repeated solutions into templates, tools, or subscriptions.</li>
           </ol>
+        </div>
+      </section>
+
+      <section class="section support" id="support" aria-labelledby="support-title">
+        <div class="support-panel">
+          <div>
+            <p class="eyebrow">Funding later</p>
+            <h2 id="support-title">Support path is intentionally pending.</h2>
+            <p>
+              The portfolio will add a working support path after the payment method is confirmed. For now, the priority
+              is shipping useful public-good software with clear specs, demos, limitations, and case studies.
+            </p>
+          </div>
+          <div class="support-actions">
+            <span class="button primary disabled-button" aria-disabled="true">Funding path pending</span>
+            <a class="button secondary" href="./DONATE.md">Funding notes</a>
+          </div>
         </div>
       </section>
 

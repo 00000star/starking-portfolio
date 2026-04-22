@@ -381,9 +381,13 @@ p {
 .stack-grid article,
 .project-card,
 .humanity-card,
+.unbuilt-grid article,
+.queue-card,
+.scorecard,
 .reputation-card,
 .offer-card,
 .conversion-panel,
+.support-panel,
 .architecture,
 .case-list div,
 .timeline li {
@@ -502,9 +506,127 @@ p {
   line-height: 1.45;
 }
 
-.humanity-card a {
+.humanity-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.humanity-card a,
+.research-note a {
   color: var(--gold);
   font-weight: 850;
+}
+
+.unbuilt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.unbuilt-grid article {
+  display: flex;
+  min-height: 12.5rem;
+  flex-direction: column;
+  padding: 1.25rem;
+  background:
+    linear-gradient(145deg, rgba(112, 185, 130, 0.08), transparent),
+    var(--panel);
+}
+
+.unbuilt-grid span {
+  color: var(--green);
+  font: 900 0.78rem var(--mono);
+}
+
+.unbuilt-grid h3 {
+  margin-top: 0.85rem;
+}
+
+.unbuilt-grid p {
+  margin-bottom: 1rem;
+}
+
+.unbuilt-grid a {
+  margin-top: auto;
+  color: var(--gold);
+  font-weight: 850;
+}
+
+.research-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid rgba(112, 185, 130, 0.28);
+  border-radius: 1.25rem;
+  background: rgba(112, 185, 130, 0.08);
+  padding: 1rem 1.25rem;
+}
+
+.research-note strong {
+  color: var(--green);
+}
+
+.research-note span {
+  flex: 1 1 30rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.queue-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.queue-card {
+  padding: 1.25rem;
+}
+
+.queue-card.priority {
+  border-color: rgba(216, 180, 95, 0.42);
+  background:
+    radial-gradient(circle at top right, rgba(216, 180, 95, 0.12), transparent 14rem),
+    var(--panel);
+}
+
+.queue-card span {
+  color: var(--green);
+  font: 900 0.72rem var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.queue-card h3 {
+  margin-top: 0.9rem;
+}
+
+.queue-card p {
+  margin-bottom: 0;
+}
+
+.scorecard {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background:
+    linear-gradient(135deg, rgba(119, 183, 216, 0.12), transparent),
+    var(--panel);
+}
+
+.scorecard ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1rem;
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.scorecard strong {
+  color: var(--ink);
 }
 
 .reputation-grid {
@@ -581,6 +703,38 @@ p {
   padding-left: 1.2rem;
   color: var(--muted);
   line-height: 1.6;
+}
+
+.support-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.5rem;
+  border-color: rgba(112, 185, 130, 0.42);
+  background:
+    radial-gradient(circle at top right, rgba(112, 185, 130, 0.16), transparent 20rem),
+    var(--panel);
+}
+
+.support-panel h2 {
+  max-width: 15ch;
+}
+
+.support-panel p {
+  max-width: 48rem;
+  margin-bottom: 0;
+}
+
+.support-actions {
+  display: grid;
+  gap: 0.75rem;
+  min-width: 13rem;
+}
+
+.disabled-button {
+  cursor: not-allowed;
+  opacity: 0.78;
 }
 
 .project-card {
@@ -784,9 +938,12 @@ p {
 
   .project-grid,
   .humanity-grid,
+  .unbuilt-grid,
+  .queue-grid,
   .reputation-grid,
   .offers,
   .conversion-panel,
+  .support-panel,
   .stack-grid {
     grid-template-columns: 1fr;
   }
@@ -797,6 +954,10 @@ p {
 
   .project-card.featured {
     grid-row: auto;
+  }
+
+  .scorecard ul {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -23,6 +23,10 @@ You can also open `index.html` directly in a browser.
 npm run check
 ```
 
+## Support
+
+The donation path is intentionally pending. The site keeps `DONATE.md` funding notes, but the public priority is currently shipping useful projects, specs, demos, and case studies before choosing a payment method.
+
 ## Current Featured Project
 
 - The Codex: https://github.com/00000star/Civilizationx
@@ -49,6 +53,14 @@ The site now includes a Humanity Lab section with project ideas designed to be u
 - Local Food Resilience Planner.
 - Readable Web Converter.
 - Home Resilience Checklist.
+- Mutual Aid Logistics OS.
+- Open Medical Translation Cards.
+- Community Tool Library Manager.
+- Low-Bandwidth School Kit.
+- Local Hazard Memory Map.
+- Plain-Language Rights Explainer.
+
+Detailed specs live in `project-specs/`.
 
 See `PORTFOLIO_BUILD_PLAN.md` for the project roadmap.
 

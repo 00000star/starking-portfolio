@@ -10,8 +10,17 @@ const requiredFiles = [
   "case-studies/the-codex.md",
   "HUMANITY_PROJECTS.md",
   "REPUTATION_REVENUE_PLAN.md",
+  "DONATE.md",
+  ".github/FUNDING.yml",
   "project-specs/disaster-mesh-communications.md",
   "project-specs/clean-water-field-guide.md",
+  "project-specs/open-repair-atlas.md",
+  "project-specs/mutual-aid-logistics-os.md",
+  "project-specs/open-medical-translation-cards.md",
+  "project-specs/low-bandwidth-school-kit.md",
+  "project-specs/local-hazard-memory-map.md",
+  "project-specs/plain-language-rights-explainer.md",
+  "project-specs/community-tool-library-manager.md",
   "PORTFOLIO_BUILD_PLAN.md",
   "README.md",
 ];
@@ -31,7 +40,18 @@ for (const file of requiredFiles) {
   }
 }
 
-for (const id of ["main", "projects", "humanity", "reputation", "case-study", "stack", "roadmap"]) {
+for (const id of [
+  "main",
+  "projects",
+  "humanity",
+  "unbuilt",
+  "build-queue",
+  "reputation",
+  "support",
+  "case-study",
+  "stack",
+  "roadmap",
+]) {
   if (!html.includes(`id="${id}"`)) failures.push(`Missing section id: ${id}`);
 }
 
@@ -45,6 +65,10 @@ if (!html.includes("https://github.com/00000star/Civilizationx")) {
 
 for (const phrase of ["AI + knowledge system builds", "Opportunity funnel", "Useful to humanity"]) {
   if (!html.includes(phrase)) failures.push(`Missing reputation/revenue phrase: ${phrase}`);
+}
+
+for (const phrase of ["Funding path pending", "Software humanity needs", "Mutual Aid Logistics OS", "Selection scorecard"]) {
+  if (!html.includes(phrase)) failures.push(`Missing support/brainstorm phrase: ${phrase}`);
 }
 
 for (const spec of [

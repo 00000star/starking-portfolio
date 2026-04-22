@@ -77,3 +77,32 @@ These are useful projects that can become standalone repositories after the port
 ## Immediate Next Step
 
 Deploy this portfolio site and link The Codex repository. Then build the Obsidian AI Knowledge Engine as the second flagship project.
+
+## Build Queue Logic
+
+Prioritize projects with:
+
+- High public-good value.
+- A small offline-first MVP.
+- Clear safety boundaries.
+- Strong engineering signal.
+- Useful documentation and case-study potential.
+
+Current queue:
+
+1. Deploy and polish The Codex.
+2. Build Disaster Mesh Communications.
+3. Build Clean Water Field Guide.
+4. Build Obsidian AI Knowledge Engine in parallel.
+5. Build Open Repair Atlas.
+
+## Donation Standard
+
+Every published project should include:
+
+- A visible Donate or Support button.
+- A short funding note explaining what support pays for.
+- `.github/FUNDING.yml` where the project is hosted on GitHub.
+- Honest limitations for health, legal, safety, disaster, or AI tools.
+
+Implementation is deferred until the payment method is confirmed.

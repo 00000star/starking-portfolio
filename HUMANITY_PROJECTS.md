@@ -91,6 +91,118 @@ MVP:
 - 30-day task plan.
 - Printable household checklist.
 
+## Neglected Software Brainstorm
+
+These are additional projects that fit the portfolio thesis: useful software for important human needs that is often underbuilt because the audience is fragmented, low-income, offline, local, or not attractive to venture-scale SaaS.
+
+### Mutual Aid Logistics OS
+
+Coordinate requests, offers, inventory, volunteers, deliveries, and proof-of-handoff for small community groups.
+
+MVP:
+
+- Request and offer board.
+- Inventory list with expiry dates.
+- Volunteer task assignment.
+- Delivery route notes.
+- CSV/JSON export for accountability.
+
+### Open Medical Translation Cards
+
+Generate offline cards for symptoms, allergies, medications, chronic conditions, emergency contacts, and consent preferences across languages.
+
+MVP:
+
+- Plain-language medical profile builder.
+- Printable and QR-shareable cards.
+- Translation review workflow.
+- Emergency mode with large text.
+
+Safety rules:
+
+- Do not diagnose.
+- Do not replace clinicians.
+- Mark translations as reviewed or unreviewed.
+
+### Community Tool Library Manager
+
+Help neighborhoods, schools, workshops, and repair groups share tools responsibly.
+
+MVP:
+
+- Tool catalog.
+- Borrow/return tracking.
+- Maintenance schedule.
+- Safety notes and required training.
+- Repair history.
+
+### Low-Bandwidth School Kit
+
+Package lessons, worksheets, teacher notes, progress records, and offline media for schools with unreliable internet.
+
+MVP:
+
+- Static lesson library.
+- Printable worksheets.
+- Teacher progress tracker.
+- USB/offline distribution mode.
+
+### Local Hazard Memory Map
+
+Capture local knowledge about floods, outages, unsafe crossings, blocked roads, smoke zones, heat islands, and infrastructure failures.
+
+MVP:
+
+- Offline map notes.
+- Time-stamped incident reports.
+- Photo attachments.
+- Exportable neighborhood risk summary.
+
+### Plain-Language Rights Explainer
+
+Turn complex local rules into careful, jurisdiction-aware checklists for tenants, workers, patients, and immigrants.
+
+MVP:
+
+- Topic-specific guided questions.
+- Plain-language next steps.
+- Evidence checklist.
+- Referral/resource directory.
+
+Safety rules:
+
+- Do not claim to be legal advice.
+- Cite sources.
+- Show jurisdiction and last-reviewed date.
+
+### Open Accessibility Audit Helper
+
+Help small organizations check websites, PDFs, forms, and public information for basic accessibility failures.
+
+MVP:
+
+- Checklist-driven audit.
+- Color contrast checker.
+- Form label scanner.
+- Plain-language remediation tasks.
+
+### Offline Benefits Navigator
+
+Help people understand what documents and steps may be needed for public benefits, aid, school support, or community services.
+
+MVP:
+
+- Local resource directory.
+- Document checklist.
+- Application step tracker.
+- Exportable appointment sheet.
+
+Safety rules:
+
+- State that rules change.
+- Require source dates.
+- Avoid promising eligibility.
+
 ## Build Order
 
 1. Deploy the portfolio.
@@ -99,5 +211,18 @@ MVP:
 4. Build Clean Water Field Guide.
 5. Build Obsidian AI Knowledge Engine.
 6. Build Open Repair Atlas.
+7. Build Mutual Aid Logistics OS.
+8. Build Low-Bandwidth School Kit.
 
 The strongest portfolio story is: preserve knowledge, coordinate during failure, keep water safe, repair what matters, and use AI responsibly.
+
+## Donation Fit
+
+Each public-good project should include a support link once published:
+
+- Portfolio donate section.
+- Repository funding metadata.
+- README support button.
+- Clear funding note explaining what donations support and what they do not guarantee.
+
+Donation implementation is deferred until a working payment route is confirmed.
