@@ -44,6 +44,8 @@ MVP:
 
 ### 2. Clean Water Field Guide
 
+Status: MVP built and published at https://github.com/00000star/clean-water-field-guide
+
 Build a mobile-first offline guide for water risk, treatment, storage, and safety.
 
 Why it matters: waterborne disease kills quickly. A careful tool can teach safe priorities while clearly stating uncertainty and danger.
@@ -224,7 +226,7 @@ Safety rules:
 1. Deploy the portfolio.
 2. Polish and deploy The Codex.
 3. Build Disaster Mesh Communications.
-4. Build Clean Water Field Guide.
+4. Harden and deploy Clean Water Field Guide.
 5. Build Obsidian AI Knowledge Engine.
 6. Build Open Repair Atlas.
 7. Build Mutual Aid Logistics OS.

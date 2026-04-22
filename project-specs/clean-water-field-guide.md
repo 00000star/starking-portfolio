@@ -1,5 +1,9 @@
 # Clean Water Field Guide
 
+Repository: https://github.com/00000star/clean-water-field-guide
+
+Status: MVP built as a standalone offline-first PWA with conservative public-health source citations.
+
 ## Mission
 
 Build a careful offline guide for identifying risky water, choosing treatment methods, storing treated water, and understanding when basic treatment is not enough.

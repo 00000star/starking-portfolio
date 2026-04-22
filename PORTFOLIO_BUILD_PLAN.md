@@ -61,6 +61,7 @@ The expanded idea engine lives in:
    - MVP: local incident board, supply tracker, radio plan, QR/file export.
 
 2. Clean Water Field Guide
+   - Status: MVP built and published at https://github.com/00000star/clean-water-field-guide.
    - Purpose: help people make safer water decisions offline.
    - MVP: risk questionnaire, treatment selector, safety warnings, print sheet.
 
@@ -98,7 +99,7 @@ Current queue:
 
 1. Deploy and polish The Codex.
 2. Harden and deploy Disaster Mesh Communications.
-3. Build Clean Water Field Guide.
+3. Harden and deploy Clean Water Field Guide.
 4. Build Obsidian AI Knowledge Engine in parallel.
 5. Build Open Repair Atlas.
 
