@@ -46,6 +46,34 @@ Every portfolio project should eventually include:
    - Purpose: generate diagrams and simple 3D explainers from structured specs.
    - MVP: generate a pulley, lever, wheel-and-axle, and circuit diagram.
 
+## Humanity-Benefit Projects
+
+These are useful projects that can become standalone repositories after the portfolio is published.
+
+1. Disaster Mesh Communications
+   - Purpose: offline-first coordination during outages and disasters.
+   - MVP: local incident board, supply tracker, radio plan, QR/file export.
+
+2. Clean Water Field Guide
+   - Purpose: help people make safer water decisions offline.
+   - MVP: risk questionnaire, treatment selector, safety warnings, print sheet.
+
+3. Open Repair Atlas
+   - Purpose: preserve practical repair knowledge.
+   - MVP: bicycle and hand pump repair workflows.
+
+4. Local Food Resilience Planner
+   - Purpose: plan calories, crops, water, preservation, and storage.
+   - MVP: household calorie calendar and crop planner.
+
+5. Readable Web Converter
+   - Purpose: make web content more accessible and printable.
+   - MVP: one-click clean reading mode with citation preservation.
+
+6. Home Resilience Checklist
+   - Purpose: convert climate and outage risks into practical household tasks.
+   - MVP: risk questionnaire and 30-day action plan.
+
 ## Immediate Next Step
 
 Deploy this portfolio site and link The Codex repository. Then build the Obsidian AI Knowledge Engine as the second flagship project.

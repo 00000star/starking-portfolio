@@ -25,6 +25,7 @@
         </button>
         <div class="nav-links" id="nav-links">
           <a href="#projects">Projects</a>
+          <a href="#humanity">Humanity Lab</a>
           <a href="#case-study">Case Study</a>
           <a href="#stack">Stack</a>
           <a href="#roadmap">Roadmap</a>
@@ -58,6 +59,10 @@
             <div>
               <dt>Standard</dt>
               <dd>Deployable work</dd>
+            </div>
+            <div>
+              <dt>Mission</dt>
+              <dd>Useful to humanity</dd>
             </div>
           </dl>
         </div>
@@ -110,10 +115,11 @@
           <button class="filter" type="button" data-filter="planned">Planned</button>
           <button class="filter" type="button" data-filter="ai">AI</button>
           <button class="filter" type="button" data-filter="tooling">Tooling</button>
+          <button class="filter" type="button" data-filter="humanity">Humanity</button>
         </div>
 
         <div class="project-grid">
-          <article class="project-card featured" data-tags="shipped ai knowledge offline">
+          <article class="project-card featured" data-tags="shipped ai knowledge offline humanity">
             <div class="card-topline">
               <span class="status shipped">Shipped foundation</span>
               <span>React · TypeScript · PWA</span>
@@ -134,7 +140,7 @@
             </div>
           </article>
 
-          <article class="project-card" data-tags="planned ai knowledge tooling">
+          <article class="project-card" data-tags="planned ai knowledge tooling humanity">
             <div class="card-topline">
               <span class="status planned">Next build</span>
               <span>Obsidian · Embeddings · Local-first</span>
@@ -168,7 +174,7 @@
             </ul>
           </article>
 
-          <article class="project-card" data-tags="planned security tooling">
+          <article class="project-card" data-tags="planned security tooling humanity">
             <div class="card-topline">
               <span class="status planned">Planned</span>
               <span>CLI · GitHub Action · Security</span>
@@ -200,6 +206,105 @@
               <li>Exports images and lightweight models.</li>
               <li>Connects visual assets to documentation.</li>
             </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section humanity" id="humanity" aria-labelledby="humanity-title">
+        <div class="section-heading">
+          <p class="eyebrow">Humanity lab</p>
+          <h2 id="humanity-title">Useful projects worth building next</h2>
+          <p>
+            These are portfolio projects designed to be socially useful and technically credible. Each one can become a
+            standalone repository with a demo, case study, tests, and deployment path.
+          </p>
+        </div>
+
+        <div class="humanity-grid">
+          <article class="humanity-card priority">
+            <span class="impact-label">Priority 1 · disaster resilience</span>
+            <h3>Disaster Mesh Communications</h3>
+            <p>
+              An offline-first coordination app for neighborhoods when internet service fails. It stores maps, checklists,
+              radio frequencies, supply requests, and message logs that can sync over local Wi-Fi or exported files.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>communities, responders, shelters</dd></div>
+              <div><dt>Stack</dt><dd>PWA, IndexedDB, QR/file sync, maps</dd></div>
+              <div><dt>MVP</dt><dd>offline incident board + supply tracker</dd></div>
+            </dl>
+            <a href="./project-specs/disaster-mesh-communications.md">Read spec</a>
+          </article>
+
+          <article class="humanity-card priority">
+            <span class="impact-label">Priority 2 · public health</span>
+            <h3>Clean Water Field Guide</h3>
+            <p>
+              A mobile-first tool that teaches water risk identification, treatment choices, storage discipline, and
+              low-tech testing. It should work offline and avoid giving unsafe certainty.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>families, hikers, aid groups, schools</dd></div>
+              <div><dt>Stack</dt><dd>static PWA, decision trees, print mode</dd></div>
+              <div><dt>MVP</dt><dd>treatment selector + safety warnings</dd></div>
+            </dl>
+            <a href="./project-specs/clean-water-field-guide.md">Read spec</a>
+          </article>
+
+          <article class="humanity-card">
+            <span class="impact-label">Education</span>
+            <h3>Open Repair Atlas</h3>
+            <p>
+              A repair knowledge base for bicycles, radios, pumps, lights, small engines, and household tools. It should
+              emphasize diagnosis, safe disassembly, common failures, and salvageable parts.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>makers, repair cafes, schools</dd></div>
+              <div><dt>Stack</dt><dd>React, JSON entries, diagrams, search</dd></div>
+              <div><dt>MVP</dt><dd>bicycle + hand pump repair paths</dd></div>
+            </dl>
+          </article>
+
+          <article class="humanity-card">
+            <span class="impact-label">Food security</span>
+            <h3>Local Food Resilience Planner</h3>
+            <p>
+              A planning tool that estimates calories, crop timing, water needs, storage, preservation, and community
+              garden outputs for a household or neighborhood.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>families, schools, local councils</dd></div>
+              <div><dt>Stack</dt><dd>TypeScript, SQLite, charts, exports</dd></div>
+              <div><dt>MVP</dt><dd>calorie calendar + crop planner</dd></div>
+            </dl>
+          </article>
+
+          <article class="humanity-card">
+            <span class="impact-label">Accessibility</span>
+            <h3>Readable Web Converter</h3>
+            <p>
+              A browser tool that turns messy web pages into clean, printable, accessible reading packs with larger text,
+              better contrast, simplified layout, and citation preservation.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>students, elders, low-vision readers</dd></div>
+              <div><dt>Stack</dt><dd>extension, readability parser, CSS</dd></div>
+              <div><dt>MVP</dt><dd>one-click clean page + print/PDF</dd></div>
+            </dl>
+          </article>
+
+          <article class="humanity-card">
+            <span class="impact-label">Climate adaptation</span>
+            <h3>Home Resilience Checklist</h3>
+            <p>
+              A local risk-preparation planner for heat, flooding, outages, wildfire smoke, water interruption, and food
+              disruption. It outputs practical household tasks instead of abstract risk scores.
+            </p>
+            <dl>
+              <div><dt>Users</dt><dd>households, renters, community groups</dd></div>
+              <div><dt>Stack</dt><dd>PWA, local storage, printable plans</dd></div>
+              <div><dt>MVP</dt><dd>risk questionnaire + 30-day action plan</dd></div>
+            </dl>
           </article>
         </div>
       </section>

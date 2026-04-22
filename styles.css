@@ -238,7 +238,7 @@ p {
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
   max-width: 42rem;
   margin: 2.4rem 0 0;
@@ -380,6 +380,7 @@ p {
 .thesis-grid article,
 .stack-grid article,
 .project-card,
+.humanity-card,
 .architecture,
 .case-list div,
 .timeline li {
@@ -433,6 +434,74 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.humanity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.humanity-card {
+  display: flex;
+  min-height: 25rem;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.humanity-card.priority {
+  border-color: rgba(216, 180, 95, 0.45);
+  background:
+    radial-gradient(circle at top right, rgba(216, 180, 95, 0.14), transparent 16rem),
+    var(--panel);
+}
+
+.impact-label {
+  width: fit-content;
+  border: 1px solid rgba(119, 183, 216, 0.28);
+  border-radius: 999px;
+  background: rgba(119, 183, 216, 0.1);
+  color: var(--blue);
+  padding: 0.28rem 0.55rem;
+  font: 850 0.66rem var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.humanity-card h3 {
+  margin-top: 1.25rem;
+}
+
+.humanity-card dl {
+  display: grid;
+  gap: 0.65rem;
+  margin: auto 0 1.2rem;
+  padding-top: 1rem;
+}
+
+.humanity-card dl div {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.7rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.65rem;
+}
+
+.humanity-card dt {
+  color: var(--gold);
+  font: 850 0.66rem var(--mono);
+  text-transform: uppercase;
+}
+
+.humanity-card dd {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.humanity-card a {
+  color: var(--gold);
+  font-weight: 850;
 }
 
 .project-card {
@@ -635,6 +704,7 @@ p {
   }
 
   .project-grid,
+  .humanity-grid,
   .stack-grid {
     grid-template-columns: 1fr;
   }

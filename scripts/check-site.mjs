@@ -8,6 +8,9 @@ const requiredFiles = [
   "scripts.js",
   "assets/codex-architecture.svg",
   "case-studies/the-codex.md",
+  "HUMANITY_PROJECTS.md",
+  "project-specs/disaster-mesh-communications.md",
+  "project-specs/clean-water-field-guide.md",
   "PORTFOLIO_BUILD_PLAN.md",
   "README.md",
 ];
@@ -27,7 +30,7 @@ for (const file of requiredFiles) {
   }
 }
 
-for (const id of ["main", "projects", "case-study", "stack", "roadmap"]) {
+for (const id of ["main", "projects", "humanity", "case-study", "stack", "roadmap"]) {
   if (!html.includes(`id="${id}"`)) failures.push(`Missing section id: ${id}`);
 }
 
@@ -37,6 +40,13 @@ for (const href of ["./styles.css", "./scripts.js", "./assets/codex-architecture
 
 if (!html.includes("https://github.com/00000star/Civilizationx")) {
   failures.push("Missing Civilizationx GitHub link");
+}
+
+for (const spec of [
+  "./project-specs/disaster-mesh-communications.md",
+  "./project-specs/clean-water-field-guide.md",
+]) {
+  if (!html.includes(spec)) failures.push(`Missing project spec link: ${spec}`);
 }
 
 if (!css.includes("@media (max-width: 900px)")) {

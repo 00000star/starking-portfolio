@@ -39,4 +39,15 @@ This portfolio is built around projects that demonstrate:
 - Security awareness.
 - Visual/engineering media.
 
+## Humanity-Benefit Pipeline
+
+The site now includes a Humanity Lab section with project ideas designed to be useful beyond portfolio signalling:
+
+- Disaster Mesh Communications.
+- Clean Water Field Guide.
+- Open Repair Atlas.
+- Local Food Resilience Planner.
+- Readable Web Converter.
+- Home Resilience Checklist.
+
 See `PORTFOLIO_BUILD_PLAN.md` for the project roadmap.
