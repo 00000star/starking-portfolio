@@ -381,6 +381,9 @@ p {
 .stack-grid article,
 .project-card,
 .humanity-card,
+.reputation-card,
+.offer-card,
+.conversion-panel,
 .architecture,
 .case-list div,
 .timeline li {
@@ -502,6 +505,82 @@ p {
 .humanity-card a {
   color: var(--gold);
   font-weight: 850;
+}
+
+.reputation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.reputation-card {
+  padding: 1.25rem;
+}
+
+.reputation-number {
+  display: inline-grid;
+  width: 2.6rem;
+  height: 2.6rem;
+  place-items: center;
+  border: 1px solid rgba(216, 180, 95, 0.4);
+  border-radius: 50%;
+  color: var(--gold);
+  font: 900 0.8rem var(--mono);
+}
+
+.reputation-card h3 {
+  margin-top: 1.2rem;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.offer-card {
+  padding: 1.25rem;
+}
+
+.primary-offer {
+  grid-row: span 3;
+  border-color: rgba(216, 180, 95, 0.5);
+  background:
+    radial-gradient(circle at top left, rgba(216, 180, 95, 0.14), transparent 18rem),
+    var(--panel);
+}
+
+.offer-card ul {
+  display: grid;
+  gap: 0.55rem;
+  margin: 1.25rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.conversion-panel {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background:
+    linear-gradient(135deg, rgba(119, 183, 216, 0.12), transparent),
+    var(--panel);
+}
+
+.conversion-panel h3 {
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
+}
+
+.conversion-panel ol {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .project-card {
@@ -705,8 +784,15 @@ p {
 
   .project-grid,
   .humanity-grid,
+  .reputation-grid,
+  .offers,
+  .conversion-panel,
   .stack-grid {
     grid-template-columns: 1fr;
+  }
+
+  .primary-offer {
+    grid-row: auto;
   }
 
   .project-card.featured {

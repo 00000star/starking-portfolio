@@ -9,6 +9,7 @@ const requiredFiles = [
   "assets/codex-architecture.svg",
   "case-studies/the-codex.md",
   "HUMANITY_PROJECTS.md",
+  "REPUTATION_REVENUE_PLAN.md",
   "project-specs/disaster-mesh-communications.md",
   "project-specs/clean-water-field-guide.md",
   "PORTFOLIO_BUILD_PLAN.md",
@@ -30,7 +31,7 @@ for (const file of requiredFiles) {
   }
 }
 
-for (const id of ["main", "projects", "humanity", "case-study", "stack", "roadmap"]) {
+for (const id of ["main", "projects", "humanity", "reputation", "case-study", "stack", "roadmap"]) {
   if (!html.includes(`id="${id}"`)) failures.push(`Missing section id: ${id}`);
 }
 
@@ -40,6 +41,10 @@ for (const href of ["./styles.css", "./scripts.js", "./assets/codex-architecture
 
 if (!html.includes("https://github.com/00000star/Civilizationx")) {
   failures.push("Missing Civilizationx GitHub link");
+}
+
+for (const phrase of ["AI + knowledge system builds", "Opportunity funnel", "Useful to humanity"]) {
+  if (!html.includes(phrase)) failures.push(`Missing reputation/revenue phrase: ${phrase}`);
 }
 
 for (const spec of [

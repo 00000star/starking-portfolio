@@ -51,3 +51,5 @@ The site now includes a Humanity Lab section with project ideas designed to be u
 - Home Resilience Checklist.
 
 See `PORTFOLIO_BUILD_PLAN.md` for the project roadmap.
+
+See `REPUTATION_REVENUE_PLAN.md` for how the portfolio should build reputation and ethical income paths.
