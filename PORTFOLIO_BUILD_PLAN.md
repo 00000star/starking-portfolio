@@ -50,6 +50,11 @@ Every portfolio project should eventually include:
 
 These are useful projects that can become standalone repositories after the portfolio is published.
 
+The expanded idea engine lives in:
+
+- `HUMANITY_SOFTWARE_PROMPT.md` for the reusable prompt, missing context, and scoring lens.
+- `HUMANITY_SOFTWARE_IDEAS_100.md` for a 100-project catalog across resilience, health, food, education, rights, work, accessibility, environment, governance, and AI for human capability.
+
 1. Disaster Mesh Communications
    - Purpose: offline-first coordination during outages and disasters.
    - MVP: local incident board, supply tracker, radio plan, QR/file export.

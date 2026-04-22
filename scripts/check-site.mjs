@@ -9,6 +9,8 @@ const requiredFiles = [
   "assets/codex-architecture.svg",
   "case-studies/the-codex.md",
   "HUMANITY_PROJECTS.md",
+  "HUMANITY_SOFTWARE_PROMPT.md",
+  "HUMANITY_SOFTWARE_IDEAS_100.md",
   "REPUTATION_REVENUE_PLAN.md",
   "DONATE.md",
   ".github/FUNDING.yml",
@@ -69,6 +71,10 @@ for (const phrase of ["AI + knowledge system builds", "Opportunity funnel", "Use
 
 for (const phrase of ["Funding path pending", "Software humanity needs", "Mutual Aid Logistics OS", "Selection scorecard"]) {
   if (!html.includes(phrase)) failures.push(`Missing support/brainstorm phrase: ${phrase}`);
+}
+
+for (const href of ["./HUMANITY_SOFTWARE_PROMPT.md", "./HUMANITY_SOFTWARE_IDEAS_100.md"]) {
+  if (!html.includes(href)) failures.push(`Missing humanity expansion link: ${href}`);
 }
 
 for (const spec of [

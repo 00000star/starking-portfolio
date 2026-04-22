@@ -62,6 +62,11 @@ The site now includes a Humanity Lab section with project ideas designed to be u
 
 Detailed specs live in `project-specs/`.
 
+The wider idea system now lives in:
+
+- `HUMANITY_SOFTWARE_PROMPT.md` for the reusable prompt and missing context.
+- `HUMANITY_SOFTWARE_IDEAS_100.md` for 100 additional humanity-focused software ideas.
+
 See `PORTFOLIO_BUILD_PLAN.md` for the project roadmap.
 
 See `REPUTATION_REVENUE_PLAN.md` for how the portfolio should build reputation and ethical income paths.

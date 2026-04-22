@@ -10,6 +10,20 @@ These projects are chosen because they are useful, demoable, and technically cre
 - It can grow from MVP to serious tool.
 - It avoids fake certainty where safety or health are involved.
 
+## Expanded Brainstorming Context
+
+The larger prompt is now captured in `HUMANITY_SOFTWARE_PROMPT.md`. Use it when the portfolio needs new ideas, tighter project specs, or a better build queue.
+
+The short version:
+
+- Build for people who are usually left out: low-resource communities, rural clinics, small schools, informal workers, caregivers, elders, disabled users, migrants, volunteers, and groups still running on paper or chat apps.
+- Assume real-world constraints: offline use, old Android phones, shared devices, weak power, low bandwidth, multilingual users, low literacy, crisis stress, print handoff, privacy risk, stale information, and vendor shutdown.
+- Prefer practical workflows: registries, decision trees, field guides, checklists, maps, inventories, document packs, translation cards, queues, routing, source-backed explainers, and local-first databases.
+- Treat safety as a product feature: state limits, show source dates, preserve review status, keep sensitive data local, avoid false authority, and make uncertainty visible.
+- Pick projects that produce portfolio evidence: a working demo, data model, tests, screenshots, case study, README, and a credible path from MVP to useful public infrastructure.
+
+See `HUMANITY_SOFTWARE_IDEAS_100.md` for a broader catalog of 100 candidate projects.
+
 ## Priority Projects
 
 ### 1. Disaster Mesh Communications
