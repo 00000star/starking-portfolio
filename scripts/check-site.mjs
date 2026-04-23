@@ -69,6 +69,10 @@ if (!html.includes("https://github.com/00000star/paperclip-ai-companies")) {
   failures.push("Missing Paperclip AI Companies GitHub link");
 }
 
+if (!html.includes("https://github.com/00000star/zimsmeai-solutions")) {
+  failures.push("Missing ZimSME AI Solutions GitHub link");
+}
+
 if (!html.includes("https://github.com/00000star/disaster-mesh-communications")) {
   failures.push("Missing Disaster Mesh GitHub link");
 }
