@@ -30,6 +30,7 @@ The donation path is intentionally pending. The site keeps `DONATE.md` funding n
 ## Current Featured Project
 
 - The Codex: https://github.com/00000star/Civilizationx
+- Paperclip AI Companies: https://github.com/00000star/paperclip-ai-companies
 - Disaster Mesh Communications: https://github.com/00000star/disaster-mesh-communications
 - Clean Water Field Guide: https://github.com/00000star/clean-water-field-guide
 - Open Repair Atlas: https://github.com/00000star/open-repair-atlas
@@ -41,6 +42,7 @@ This portfolio is built around projects that demonstrate:
 - Product judgement.
 - TypeScript/frontend engineering.
 - AI systems.
+- Paperclip-compatible AI company packages.
 - Local-first knowledge tools.
 - Developer tooling.
 - Security awareness.

@@ -26,22 +26,28 @@ Every portfolio project should eventually include:
    - Purpose: offline-first civilisation technology reference.
    - Next: deploy live and add demo video.
 
-2. Obsidian AI Knowledge Engine
+2. Paperclip AI Companies
+   - Status: active.
+   - Purpose: design, score, and scaffold AI-operated company packages for Paperclip.
+   - MVP: company blueprint portfolio, scoring model, dashboard, and package generator.
+   - Repository: https://github.com/00000star/paperclip-ai-companies
+
+3. Obsidian AI Knowledge Engine
    - Status: next build.
    - Purpose: local-first AI assistant for Markdown vaults.
    - MVP: index notes, semantic search, missing link detection, summaries.
 
-3. AI Project Manager
+4. AI Project Manager
    - Status: planned.
    - Purpose: task and verification dashboard for AI-assisted coding.
    - MVP: tasks, commits, agent logs, test status, risk flags.
 
-4. AI Safety Secret Scanner
+5. AI Safety Secret Scanner
    - Status: planned.
    - Purpose: prevent AI-assisted commits from leaking secrets or unsafe config.
    - MVP: CLI scanner and GitHub Action.
 
-5. Visual Engineering Playground
+6. Visual Engineering Playground
    - Status: planned.
    - Purpose: generate diagrams and simple 3D explainers from structured specs.
    - MVP: generate a pulley, lever, wheel-and-axle, and circuit diagram.
@@ -84,7 +90,7 @@ The expanded idea engine lives in:
 
 ## Immediate Next Step
 
-Deploy this portfolio site and link The Codex repository. Then build the Obsidian AI Knowledge Engine as the second flagship project.
+Deploy this portfolio site, link The Codex, and make Paperclip AI Companies the second serious flagship because it turns the portfolio from apps into operating companies.
 
 ## Build Queue Logic
 
@@ -99,10 +105,11 @@ Prioritize projects with:
 Current queue:
 
 1. Deploy and polish The Codex.
-2. Harden and deploy Disaster Mesh Communications.
-3. Harden and deploy Clean Water Field Guide.
-4. Build Obsidian AI Knowledge Engine in parallel.
-5. Harden and deploy Open Repair Atlas.
+2. Harden Paperclip AI Companies into a real company factory.
+3. Import or sync ZimSME AI Solutions through Paperclip.
+4. Harden and deploy Disaster Mesh Communications.
+5. Harden and deploy Clean Water Field Guide.
+6. Harden and deploy Open Repair Atlas.
 
 ## Donation Standard
 
