@@ -73,6 +73,10 @@ if (!html.includes("https://github.com/00000star/clean-water-field-guide")) {
   failures.push("Missing Clean Water GitHub link");
 }
 
+if (!html.includes("https://github.com/00000star/open-repair-atlas")) {
+  failures.push("Missing Open Repair Atlas GitHub link");
+}
+
 for (const phrase of ["AI + knowledge system builds", "Opportunity funnel", "Useful to humanity"]) {
   if (!html.includes(phrase)) failures.push(`Missing reputation/revenue phrase: ${phrase}`);
 }

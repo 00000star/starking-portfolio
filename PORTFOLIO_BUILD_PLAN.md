@@ -66,6 +66,7 @@ The expanded idea engine lives in:
    - MVP: risk questionnaire, treatment selector, safety warnings, print sheet.
 
 3. Open Repair Atlas
+   - Status: MVP built and published at https://github.com/00000star/open-repair-atlas.
    - Purpose: preserve practical repair knowledge.
    - MVP: bicycle and hand pump repair workflows.
 
@@ -101,7 +102,7 @@ Current queue:
 2. Harden and deploy Disaster Mesh Communications.
 3. Harden and deploy Clean Water Field Guide.
 4. Build Obsidian AI Knowledge Engine in parallel.
-5. Build Open Repair Atlas.
+5. Harden and deploy Open Repair Atlas.
 
 ## Donation Standard
 

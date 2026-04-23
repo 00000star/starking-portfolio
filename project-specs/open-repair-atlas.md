@@ -1,5 +1,9 @@
 # Open Repair Atlas
 
+Repository: https://github.com/00000star/open-repair-atlas
+
+Status: MVP built as a standalone offline-friendly repair atlas.
+
 ## Mission
 
 Build an open, offline-friendly repair guide for practical devices and tools that people depend on: bicycles, radios, pumps, lights, small engines, and household hardware.

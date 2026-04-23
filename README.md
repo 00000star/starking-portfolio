@@ -32,6 +32,7 @@ The donation path is intentionally pending. The site keeps `DONATE.md` funding n
 - The Codex: https://github.com/00000star/Civilizationx
 - Disaster Mesh Communications: https://github.com/00000star/disaster-mesh-communications
 - Clean Water Field Guide: https://github.com/00000star/clean-water-field-guide
+- Open Repair Atlas: https://github.com/00000star/open-repair-atlas
 
 ## Portfolio Direction
 

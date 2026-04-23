@@ -59,6 +59,8 @@ MVP:
 
 ### 3. Open Repair Atlas
 
+Status: MVP built and published at https://github.com/00000star/open-repair-atlas
+
 Build a repair guide for practical devices: bicycles, radios, pumps, lights, small engines, and hand tools.
 
 Why it matters: repair extends access, reduces waste, and helps communities maintain capability when replacement parts are expensive or unavailable.
@@ -228,7 +230,7 @@ Safety rules:
 3. Build Disaster Mesh Communications.
 4. Harden and deploy Clean Water Field Guide.
 5. Build Obsidian AI Knowledge Engine.
-6. Build Open Repair Atlas.
+6. Harden and deploy Open Repair Atlas.
 7. Build Mutual Aid Logistics OS.
 8. Build Low-Bandwidth School Kit.
 
