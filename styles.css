@@ -207,6 +207,22 @@ p {
   font-size: 1.12rem;
 }
 
+.hero-offer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.hero-offer-bar span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(243, 234, 215, 0.05);
+  padding: 0.55rem 0.85rem;
+  color: var(--ink);
+  font: 800 0.75rem var(--mono);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -377,8 +393,16 @@ p {
   gap: 1rem;
 }
 
+.proof-grid,
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .thesis-grid article,
 .stack-grid article,
+.proof-card,
 .project-card,
 .humanity-card,
 .unbuilt-grid article,
@@ -400,6 +424,53 @@ p {
 .thesis-grid article,
 .stack-grid article {
   padding: 1.2rem;
+}
+
+.proof-card,
+.snapshot-grid article {
+  padding: 1.25rem;
+}
+
+.proof-card {
+  background:
+    linear-gradient(145deg, rgba(119, 183, 216, 0.08), transparent),
+    var(--panel);
+}
+
+.proof-label {
+  display: inline-flex;
+  border: 1px solid rgba(216, 180, 95, 0.28);
+  border-radius: 999px;
+  padding: 0.3rem 0.55rem;
+  color: var(--gold);
+  font: 850 0.66rem var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.proof-card h3 {
+  margin-top: 1.1rem;
+}
+
+.proof-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.proof-actions a {
+  color: var(--gold);
+  font-weight: 850;
+}
+
+.proof-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .section-heading {
@@ -681,6 +752,42 @@ p {
   color: var(--muted);
 }
 
+.contact-panel {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(216, 180, 95, 0.32);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at top right, rgba(216, 180, 95, 0.12), transparent 18rem),
+    var(--panel);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+}
+
+.contact-panel h3 {
+  font-size: clamp(1.7rem, 2.8vw, 2.6rem);
+}
+
+.contact-panel p {
+  margin-bottom: 0;
+}
+
+.contact-panel ul {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.contact-panel a {
+  color: var(--gold);
+  font-weight: 850;
+}
+
 .conversion-panel {
   display: grid;
   grid-template-columns: 0.75fr 1fr;
@@ -838,6 +945,20 @@ p {
   font-size: 0.86rem;
 }
 
+.snapshot-grid article {
+  background:
+    linear-gradient(135deg, rgba(112, 185, 130, 0.08), transparent),
+    var(--panel);
+}
+
+.snapshot-grid p {
+  margin: 0.8rem 0 0;
+}
+
+.snapshot-grid strong {
+  color: var(--ink);
+}
+
 .stack-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -937,14 +1058,17 @@ p {
   }
 
   .project-grid,
+  .proof-grid,
   .humanity-grid,
   .unbuilt-grid,
   .queue-grid,
   .reputation-grid,
   .offers,
   .conversion-panel,
+  .contact-panel,
   .support-panel,
-  .stack-grid {
+  .stack-grid,
+  .snapshot-grid {
     grid-template-columns: 1fr;
   }
 
@@ -977,6 +1101,10 @@ p {
 
   .metrics {
     grid-template-columns: 1fr;
+  }
+
+  .hero-offer-bar span {
+    width: 100%;
   }
 
   .hero-actions {
