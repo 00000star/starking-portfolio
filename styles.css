@@ -437,6 +437,10 @@ p {
     var(--panel);
 }
 
+.proof-card.with-media {
+  overflow: hidden;
+}
+
 .proof-label {
   display: inline-flex;
   border: 1px solid rgba(216, 180, 95, 0.28);
@@ -450,6 +454,20 @@ p {
 
 .proof-card h3 {
   margin-top: 1.1rem;
+}
+
+.proof-media {
+  display: block;
+  margin-top: 1rem;
+  border: 1px solid rgba(243, 234, 215, 0.12);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(10, 16, 20, 0.72);
+}
+
+.proof-media img {
+  width: 100%;
+  height: auto;
 }
 
 .proof-actions {
