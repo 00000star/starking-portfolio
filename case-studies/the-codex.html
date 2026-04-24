@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Case study for The Codex: an offline-first technology knowledge system for resilience, planning, and documentary reference."
+    />
+    <meta name="theme-color" content="#101820" />
+    <title>The Codex Case Study | Starking</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="case-page">
+    <header class="site-header">
+      <nav class="nav" aria-label="Case study navigation">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark" aria-hidden="true">SX</span>
+          <span>Starking</span>
+        </a>
+        <div class="nav-links open">
+          <a href="./index.html">All case studies</a>
+          <a href="../index.html#projects">Projects</a>
+          <a class="nav-cta" href="https://00000star.github.io/Civilizationx/">Live project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="case-shell">
+      <section class="case-hero">
+        <p class="eyebrow">Case study</p>
+        <h1>The Codex</h1>
+        <p class="case-lede">
+          The Codex is a live offline-first encyclopaedia of human technology built around dependency chains,
+          documentary entries, and planner workflows. It is designed for users who need more than inspiration: they
+          need practical structure, verification context, and a path from primitive capability to advanced systems.
+        </p>
+        <div class="case-links">
+          <a class="button primary" href="https://00000star.github.io/Civilizationx/">Open live project</a>
+          <a class="button secondary" href="https://github.com/00000star/Civilizationx">Repository</a>
+        </div>
+      </section>
+
+      <section class="case-meta">
+        <div><strong>Status</strong><span>Live GitHub Pages deployment</span></div>
+        <div><strong>Stack</strong><span>React, TypeScript, Vite, PWA, Tailwind, JSON content</span></div>
+        <div><strong>Scope</strong><span>80 structured technology entries with planner and documentary flows</span></div>
+        <div><strong>User value</strong><span>Reference, planning, and resilience-oriented knowledge access</span></div>
+      </section>
+
+      <section class="case-grid">
+        <article class="case-panel">
+          <h2>Problem</h2>
+          <p>
+            Human technical knowledge is fragmented across videos, blogs, textbooks, and institutional silos. Most
+            resources explain isolated topics but do not show prerequisites, materials, unlocks, hazards, or how one
+            capability enables another.
+          </p>
+          <p>
+            The Codex addresses that gap by treating technologies as linked systems instead of disconnected articles.
+          </p>
+        </article>
+
+        <article class="case-panel">
+          <h2>Who it is for</h2>
+          <ul class="case-points">
+            <li>People exploring collapse-readiness and long-horizon resilience.</li>
+            <li>Users who want a structured map of technology dependencies.</li>
+            <li>Planners interested in off-world or constrained-environment capability building.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Approach</h2>
+          <ul class="case-points">
+            <li>Use a strict JSON data model for technology entries instead of hard-coding content into the UI.</li>
+            <li>Separate content validation from presentation so contributors can improve data without rewriting React code.</li>
+            <li>Build planner, pathfinder, search, and status views around the same core technology graph.</li>
+            <li>Make the app installable and offline-capable through a generated service worker and PWA setup.</li>
+            <li>Treat verification as product surface area, not just documentation afterthought.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>What ships today</h2>
+          <ul class="case-points">
+            <li>Interactive technology tree and detail pages.</li>
+            <li>Planner mode and pathfinder navigation.</li>
+            <li>Status dashboard for coverage, maturity, hazards, and media.</li>
+            <li>Obsidian export and offline caching behavior.</li>
+            <li>Public GitHub Pages deployment.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>Tradeoffs</h2>
+          <ul class="case-points">
+            <li>Trust burden is high because mistakes in safety-heavy domains matter.</li>
+            <li>Content depth and verification quality require sustained editorial discipline.</li>
+            <li>Visual polish and data architecture are ahead of expert-reviewed content depth in some branches.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide media-panel">
+          <img src="../assets/codex-architecture.svg" alt="The Codex architecture diagram." />
+          <p class="media-caption">Architecture preview used as proof artifact in the portfolio.</p>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Outcome</h2>
+          <p>
+            The project is now a live flagship that proves structured-content modelling, offline-first product thinking,
+            multi-view React application design, and the ability to build around a serious thesis instead of a tutorial
+            pattern. It anchors the portfolio because it shows both engineering execution and product judgement.
+          </p>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Primary sources used for this case study</h2>
+          <ul class="source-list">
+            <li><a href="https://00000star.github.io/Civilizationx/">Live Codex deployment</a></li>
+            <li><a href="https://github.com/00000star/Civilizationx">Civilizationx repository</a></li>
+            <li><a href="https://github.com/00000star/Civilizationx/blob/main/README.md">Civilizationx README</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

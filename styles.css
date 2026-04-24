@@ -36,6 +36,10 @@ body {
   font-family: var(--body);
 }
 
+body.case-page {
+  min-height: 100vh;
+}
+
 body::before {
   position: fixed;
   inset: 0;
@@ -1019,6 +1023,120 @@ p {
   margin: 0;
 }
 
+.case-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 4rem 0 5rem;
+}
+
+.case-hero {
+  padding: 2rem 0 2.5rem;
+}
+
+.case-hero h1 {
+  max-width: 10ch;
+}
+
+.case-lede {
+  max-width: 52rem;
+  margin: 1.25rem 0 0;
+  font-size: 1.08rem;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.2rem;
+  background: var(--line);
+}
+
+.case-meta div {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem;
+  background: rgba(16, 24, 32, 0.78);
+}
+
+.case-meta strong {
+  color: var(--gold);
+  font: 850 0.68rem var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.case-meta span {
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.case-grid.two-up {
+  margin-top: 0;
+}
+
+.case-panel {
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  background: var(--panel);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+  padding: 1.25rem;
+}
+
+.case-panel.wide {
+  grid-column: 1 / -1;
+}
+
+.case-panel h2 {
+  max-width: none;
+  font-size: clamp(1.8rem, 2.8vw, 3rem);
+}
+
+.case-panel p {
+  margin-bottom: 0;
+}
+
+.case-points,
+.source-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.source-list a,
+.case-panel a {
+  color: var(--gold);
+  font-weight: 850;
+}
+
+.media-panel {
+  overflow: hidden;
+}
+
+.media-panel img {
+  width: 100%;
+  border-radius: 0.9rem;
+  background: #0d1419;
+}
+
+.media-caption {
+  margin-top: 0.9rem;
+  color: var(--dim);
+  font-size: 0.9rem;
+}
+
 @keyframes spin {
   to {
     rotate: 360deg;
@@ -1086,7 +1204,9 @@ p {
   .contact-panel,
   .support-panel,
   .stack-grid,
-  .snapshot-grid {
+  .snapshot-grid,
+  .case-grid,
+  .case-meta {
     grid-template-columns: 1fr;
   }
 
@@ -1107,6 +1227,11 @@ p {
   .section {
     width: min(100% - 1rem, 1180px);
     padding: 3.2rem 0;
+  }
+
+  .case-shell {
+    width: min(100% - 1rem, 1120px);
+    padding: 3rem 0 4rem;
   }
 
   .nav {

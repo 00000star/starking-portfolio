@@ -7,7 +7,13 @@ const requiredFiles = [
   "styles.css",
   "scripts.js",
   "assets/codex-architecture.svg",
+  "assets/portfolio-preview.svg",
   "case-studies/the-codex.md",
+  "case-studies/index.html",
+  "case-studies/the-codex.html",
+  "case-studies/paperclip-ops-cockpit.html",
+  "case-studies/clean-water-field-guide.html",
+  "case-studies/disaster-mesh-communications.html",
   "HUMANITY_PROJECTS.md",
   "HUMANITY_SOFTWARE_PROMPT.md",
   "HUMANITY_SOFTWARE_IDEAS_100.md",
@@ -59,6 +65,16 @@ for (const id of [
 
 for (const href of ["./styles.css", "./scripts.js", "./assets/codex-architecture.svg"]) {
   if (!html.includes(href)) failures.push(`Missing asset reference: ${href}`);
+}
+
+for (const href of [
+  "./case-studies/index.html",
+  "./case-studies/the-codex.html",
+  "./case-studies/paperclip-ops-cockpit.html",
+  "./case-studies/clean-water-field-guide.html",
+  "./case-studies/disaster-mesh-communications.html",
+]) {
+  if (!html.includes(href)) failures.push(`Missing case study link: ${href}`);
 }
 
 if (!html.includes("https://github.com/00000star/Civilizationx")) {

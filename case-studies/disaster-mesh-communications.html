@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Case study for Disaster Mesh Communications: an offline-first coordination PWA for incident tracking, supplies, tasks, radio plans, and handoff."
+    />
+    <meta name="theme-color" content="#101820" />
+    <title>Disaster Mesh Communications Case Study | Starking</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="case-page">
+    <header class="site-header">
+      <nav class="nav" aria-label="Case study navigation">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark" aria-hidden="true">SX</span>
+          <span>Starking</span>
+        </a>
+        <div class="nav-links open">
+          <a href="./index.html">All case studies</a>
+          <a href="../index.html#humanity">Humanity Lab</a>
+          <a class="nav-cta" href="https://github.com/00000star/disaster-mesh-communications">Repository</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="case-shell">
+      <section class="case-hero">
+        <p class="eyebrow">Case study</p>
+        <h1>Disaster Mesh Communications</h1>
+        <p class="case-lede">
+          Disaster Mesh Communications is an offline-first coordination PWA for neighborhoods, shelters, and small
+          response groups. It assumes internet service may fail and that coordination still has to continue through
+          local storage, export/import, radio plans, and printable handoff.
+        </p>
+        <div class="case-links">
+          <a class="button primary" href="https://github.com/00000star/disaster-mesh-communications">Open repository</a>
+          <a class="button secondary" href="../project-specs/disaster-mesh-communications.md">Read spec</a>
+        </div>
+      </section>
+
+      <section class="case-meta">
+        <div><strong>Status</strong><span>MVP repo with offline coordination flows</span></div>
+        <div><strong>Stack</strong><span>Static web app, IndexedDB, JSON export/import, print mode, service worker</span></div>
+        <div><strong>Scope</strong><span>Incident dashboard, people, tasks, supplies, radio, map notes</span></div>
+        <div><strong>User value</strong><span>Community coordination when normal channels are degraded</span></div>
+      </section>
+
+      <section class="case-grid">
+        <article class="case-panel">
+          <h2>Problem</h2>
+          <p>
+            Small groups under disaster conditions often coordinate with a mix of paper, chat apps, and memory. Those
+            systems break down quickly when connectivity is poor, information becomes stale, or devices need to hand off
+            work to other people.
+          </p>
+        </article>
+
+        <article class="case-panel">
+          <h2>Approach</h2>
+          <ul class="case-points">
+            <li>Store the workspace locally in the browser so the app remains useful when connectivity drops.</li>
+            <li>Design the data around actual coordination units: people, supplies, tasks, radio, and notes.</li>
+            <li>Support JSON export/import to move the incident state between devices.</li>
+            <li>Keep a print handoff mode for non-digital fallback.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>What it demonstrates</h2>
+          <ul class="case-points">
+            <li>Local-first architecture with IndexedDB as product strategy, not just implementation detail.</li>
+            <li>Operational UX design for chaotic conditions and low-trust data.</li>
+            <li>Attention to stale information, handoff, privacy limits, and safety notes.</li>
+            <li>How to scope a public-good MVP around the smallest useful coordination loop.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>Current shipped features</h2>
+          <ul class="case-points">
+            <li>Incident dashboard and safety notes.</li>
+            <li>People/household registry and supply requests/offers.</li>
+            <li>Task board, radio plan, and map notes.</li>
+            <li>JSON handoff plus print mode.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>Tradeoffs</h2>
+          <ul class="case-points">
+            <li>The app cannot guarantee rescue, logistics, or data accuracy.</li>
+            <li>Privacy must stay minimal in community incident contexts.</li>
+            <li>Coordination value depends on disciplined operators and current information.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Outcome</h2>
+          <p>
+            The project is a strong portfolio proof piece because it combines product judgement, offline-first systems
+            thinking, and realistic emergency constraints. It shows the ability to design for degraded conditions
+            instead of assuming perfect networks and ideal users.
+          </p>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Primary sources used for this case study</h2>
+          <ul class="source-list">
+            <li><a href="https://github.com/00000star/disaster-mesh-communications">Disaster Mesh Communications repository</a></li>
+            <li><a href="https://github.com/00000star/disaster-mesh-communications/blob/main/README.md">Project README</a></li>
+            <li><a href="../project-specs/disaster-mesh-communications.md">Project spec</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

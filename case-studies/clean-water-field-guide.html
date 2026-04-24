@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Case study for Clean Water Field Guide: an offline-first emergency water guide designed around conservative safety boundaries and citations."
+    />
+    <meta name="theme-color" content="#101820" />
+    <title>Clean Water Field Guide Case Study | Starking</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="case-page">
+    <header class="site-header">
+      <nav class="nav" aria-label="Case study navigation">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark" aria-hidden="true">SX</span>
+          <span>Starking</span>
+        </a>
+        <div class="nav-links open">
+          <a href="./index.html">All case studies</a>
+          <a href="../index.html#humanity">Humanity Lab</a>
+          <a class="nav-cta" href="https://github.com/00000star/clean-water-field-guide">Repository</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="case-shell">
+      <section class="case-hero">
+        <p class="eyebrow">Case study</p>
+        <h1>Clean Water Field Guide</h1>
+        <p class="case-lede">
+          Clean Water Field Guide is an offline-first emergency water safety MVP for households, schools, and field
+          teams. The project is deliberately conservative: it helps users reason about water risk while staying explicit
+          about what the tool cannot guarantee.
+        </p>
+        <div class="case-links">
+          <a class="button primary" href="https://github.com/00000star/clean-water-field-guide">Open repository</a>
+          <a class="button secondary" href="../project-specs/clean-water-field-guide.md">Read spec</a>
+        </div>
+      </section>
+
+      <section class="case-meta">
+        <div><strong>Status</strong><span>MVP repo with validation and offline surface</span></div>
+        <div><strong>Stack</strong><span>Static web app, localStorage, manifest, service worker, print mode</span></div>
+        <div><strong>Scope</strong><span>Risk questionnaire, treatment guidance, bleach helper, storage checklist</span></div>
+        <div><strong>User value</strong><span>Safer water decision support during outages and emergencies</span></div>
+      </section>
+
+      <section class="case-grid">
+        <article class="case-panel">
+          <h2>Problem</h2>
+          <p>
+            In emergencies, people need fast water guidance but face dangerous uncertainty. Generic “survival tips”
+            often overstate confidence or fail to separate biological contamination from chemical risk.
+          </p>
+        </article>
+
+        <article class="case-panel">
+          <h2>Approach</h2>
+          <ul class="case-points">
+            <li>Use a short risk questionnaire to reduce the decision space.</li>
+            <li>Keep guidance conservative and citation-visible.</li>
+            <li>Include print mode and offline behavior for low-connectivity contexts.</li>
+            <li>Persist the latest assessment locally with localStorage.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>What makes it a strong case study</h2>
+          <ul class="case-points">
+            <li>It shows restraint: the product explicitly says what it does not do.</li>
+            <li>It uses official source material as a design dependency, not decorative footnotes.</li>
+            <li>It demonstrates how safety-sensitive UX should prioritize trust boundaries over false certainty.</li>
+            <li>It shows that a small static PWA can still embody careful product judgement.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>Current shipped features</h2>
+          <ul class="case-points">
+            <li>Questionnaire for source, clarity, odor, contamination context, and user vulnerability.</li>
+            <li>Boiling guidance and bleach dose helper.</li>
+            <li>Safe-storage checklist and printable emergency sheet.</li>
+            <li>Visible links to CDC, EPA, and WHO materials.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel">
+          <h2>Tradeoffs</h2>
+          <ul class="case-points">
+            <li>The app must stay conservative even when users want certainty.</li>
+            <li>Public-health trust requires explicit limitation language.</li>
+            <li>Expansion needs careful review to avoid harmful overreach.</li>
+          </ul>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Outcome</h2>
+          <p>
+            This project demonstrates a type of engineering signal that many portfolios avoid: safety-aware product
+            boundaries. It proves the ability to combine offline usability, print accessibility, and source-backed
+            guidance in a domain where careless UX can cause harm.
+          </p>
+        </article>
+
+        <article class="case-panel wide">
+          <h2>Primary sources used for this case study</h2>
+          <ul class="source-list">
+            <li><a href="https://github.com/00000star/clean-water-field-guide">Clean Water Field Guide repository</a></li>
+            <li><a href="https://github.com/00000star/clean-water-field-guide/blob/main/README.md">Project README</a></li>
+            <li><a href="https://www.cdc.gov/water-emergency/communication-resources/fact-sheet-making-water-safe-during-an-emergency.html">CDC: Make Water Safe During an Emergency</a></li>
+            <li><a href="https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water">EPA: Emergency Disinfection of Drinking Water</a></li>
+            <li><a href="https://www.who.int/docs/default-source/wash-documents/wash-in-emergencies/household-water-treatment-and-safe-storage-after-emergencies.pdf">WHO: Household Water Treatment and Safe Storage after Emergencies</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
