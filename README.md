@@ -23,6 +23,17 @@ You can also open `index.html` directly in a browser.
 npm run check
 ```
 
+## GitHub Pages
+
+Pushes to `main` deploy this static site to GitHub Pages via
+`.github/workflows/deploy-pages.yml`.
+
+Public URL:
+
+```text
+https://00000star.github.io/starking-portfolio/
+```
+
 ## Support
 
 The donation path is intentionally pending. The site keeps `DONATE.md` funding notes, but the public priority is currently shipping useful projects, specs, demos, and case studies before choosing a payment method.
